@@ -7,7 +7,7 @@ function carregar() {
     if(hora >= 0 && hora < 12) {
         //BOM DIA!
         img.src = 'imagens/manha.png'
-    } else if(hora >= 12 && hora < 18) {
+    } else if(hora >= 12 && hora <= 18) {
         //BOA TARDE!
         img.src = 'imagens/tarde.png'
     } else {
